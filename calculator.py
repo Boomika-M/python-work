@@ -1,17 +1,23 @@
 num1=int(input("Enter the first number:"))
 num2=int(input("Enter the second number:"))
 def addition(num1,num2):
-    return "num1+=num2"
+    num1+=num2
+    return num1
 def subtraction(num1,num2):
-    return "num1-=num2"
+    num1-=num2
+    return num1
 def multiplication(num1,num2):
-    return "num1*=num2"
+    num1*=num2
+    return num1
 def division(num1,num2):
-    return "num1/=num2"
+    num1/=num2
+    return num1
 def module(num1,num2):
-    return "num1%=num2"
+    num1%=num2
+    return num1
 def floordivision(num1,num2):
-    return (num1==num1//num2)
+    num1//=num2
+    return num1
 def default(num1,num2):
     return "Wrong one"
 switcher={1:addition,2:subtraction,3:multiplication,4:division,5:module,6:floordivision}
