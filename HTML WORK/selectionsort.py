@@ -1,5 +1,5 @@
-ef selection_Sort(array, size):
-for ind in range(size):
+def selection_Sort(array, size):
+  for ind in range(size):
         min_index = ind
  
         for j in range(ind + 1, size):
